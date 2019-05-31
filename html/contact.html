@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Contact Us</title>
+    <meta charset='utf-8'>
+    <meta name='description' content='Contact Juzzx Bed and Breakfast for more information'>
+    <meta name='keywords' content='juzzx bed and breakfast in waterville,accommodation,ireland,kerry,b&b,bnb,contact'>
+    <meta name='author' content='De Jong Yeong'>
+    <meta name='copyright' content='&copy; April 2016'>
+    <meta name='viewport' content='width=device-width'>
+    
+    <link href="../image/logo/logofavicon.ico" rel="icon"/> 
+    <link href="../image/logo/logofavicon.ico" rel="shortcut icon"/>
+    
+    <link rel="stylesheet" href="masterstyle.css" type="text/css">
+    
+    <script src = "distancecalc.js"></script>
+    
+    <script>
+    function success(position) 
+    {
+      document.getElementById ('visitus').style.display = 'block';
+	
+	    document.getElementById ('coordlat').innerHTML =  position.coords.latitude;
+	    document.getElementById ('coordlong').innerHTML = position.coords.longitude;
+	
+	    document.getElementById ('distance2').innerHTML = getDistanceFromLatLonInKm(51.8274, -10.172, 
+	    position.coords.latitude, position.coords.longitude);
+	  }
+    </script>
+       
+  </head>
+  <body>
+  <div class="mainContainer">
+  
+  <div class="banner">
+  <div id="twitter">
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="cengagebrain">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  
+  <p><a href="http://www.met.ie" target="_blank">Weather of Ireland</a></p>
+  </div>
+
+  <div class="navigation">
+  <img src="../image/logo/logo3.png" width="274" height="277" alt="Welcome to Juzzx Bed and Breakfast Logo">
+  <div id="menu">
+    <div class="menubox">
+      <a href="#menu" class="menubutton">Menu</a>
+      <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="attraction.html">Attractions</a>
+      <a href="reservation.html">Reservations</a>
+      <a href="contact.html">Contact Us</a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="contact">
+  <h1>Contact Us</h1>
+
+  <div id="moreInfo">
+  <h2>Juzzx B&amp;B</h2>
+  
+  <p>Juzzx Bed &amp; Breakfast,<br>
+  Spunkane,<br>Waterville,<br>Co. Kerry</p>
+  
+  <p><strong>Office&#58;</strong> &#43;353-66-8564365</p>
+  <p><strong>Mobile&#58;</strong> &#43;353-83-8415672</p>
+  <p><strong>Email&#58;</strong> <a href="mailto:de.jong.yeong@ittralee.ie" target="_blank">de.jong.yeong@ittralee.ie</a></p>
+  
+  <h2 id="headspace">Enquiries Form</h2>
+  <form method="post" action="mailto:de.jong.yeong@students.ittralee.ie" enctype="text/plain">
+  <fieldset>
+  <h3>Please fill in the form to contact us</h3>
+  
+  <label for="name">Name:</label>
+  <input name="name" type="text" maxlength="20" placeholder="Enter Your Name" id="name"><br>
+  
+  <label for="email">Email:</label>
+  <input name="email" type="text" maxlength="40" placeholder="abc@mail.com" id="email"><br>
+  
+  <label for="phone">Phone:</label>
+  <input name="phone" type="text" maxlength="40" placeholder="012-3456789" id="phone"><br>
+  
+  <br><label>Enquiry:</label><br>
+  <textarea name="comments" rows="10" cols="60"></textarea>
+  </fieldset>
+  
+  <div id="submitBut">
+  <input name="submit" type="submit" value="Submit">
+  <input name="startover" type="reset" value="Reset">
+  </div>
+  </form>
+  </div>
+  
+  <div id="mapContainer">
+  <h2>Geolocation</h2>
+  <button onclick="navigator.geolocation.getCurrentPosition(success);">Distance</button>
+
+  <div id="visitus">
+  <p>You're <span id="distance2">0</span> mi from Waterville. Come visit!</p>
+  <p>Your current latitude is: <span id="coordlat">0</span></p>
+  <p>Your current longtitude is: <span id="coordlong">0</span></p>
+  </div>
+  
+  <div id="facebook">
+  <h2>Keep in Touch</h2>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  
+  <div class="fb-page" data-href="https://www.facebook.com/cengagebrain" data-tabs="timeline" data-small-header="false" 
+  data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+  <div class="fb-xfbml-parse-ignore">
+  <blockquote cite="https://www.facebook.com/cengagebrain"><a href="https://www.facebook.com/cengagebrain">CengageBrain.com</a>
+  </blockquote>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+  </div>
+
+  <div class="footer">
+  <div class="logocon">
+  <img src="../image/photo/bnblogo.jpg" alt="B and B Ireland logo" width="30" height="35">
+  </div>
+  <p>Juzzx Bed &amp; Breakfast &copy; 2016 | <a href="terms.html" target="_blank">Terms &amp; Condition</a> | 
+  <a href="sitemap.html">Sitemap</a></p>
+  </div>
+  
+  </div>
+  </body>
+</html>

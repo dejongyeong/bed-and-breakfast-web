@@ -1,0 +1,889 @@
+/* CSS Document */
+body 
+{
+  font-size:62.5%;
+  margin:0;
+  padding:0;
+  font-family:"Times New Roman",Times,serif;
+}
+
+.mainContainer
+{
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#ffffff;
+}
+
+.clearfix {clear:both;}
+
+/*banner*/
+
+.banner 
+{
+  width:100%;
+  margin:0 auto;
+  background-color:#000000;
+  color:#ffffff;
+  font-size:1.4em;
+  padding:0.2em 0.2em 0.2em 1.5em;
+  font-family:georgia, sans-serif;
+}
+.banner a:link{text-decoration:none; color:#ffffff;}
+.banner a:hover{color:#e0e0e0; text-decoration:underline;}
+.banner a:visited{text-decoration:none; color:#ffffff;}
+#twitter {float:right; margin:0.6% 1%;}
+
+
+/*footer*/
+
+.footer
+{
+  width:100%;
+  overflow:auto;
+  margin:3% auto 0 auto;
+  background-color:#000000;
+  color:#ffffff;
+  font-size:1.3em;
+  padding:0.2em 0.2em 0.2em 1.5em;
+  font-family:georgia, sans-serif;
+}
+.footer p {margin-top:1.3%;}
+.footer a:link{text-decoration:none; color:#ffffff;}
+.footer a:hover{color:#e0e0e0; text-decoration:underline;}
+.footer a:visited{text-decoration:none; color:#ffffff;}
+.logocon {float:right; margin:0.9% 0.9% 0.8% 3%;}
+div.logocon img {max-width:100%; height:auto;}
+.backtotop 
+{ 
+  font-size:1.5em;
+  width:90%;
+  margin:10% auto 0 auto;
+  font-style:italic;
+}
+div.backtotop a:link {color:#454545; text-decoration:none;}
+div.backtotop a:hover {color:#0000ff;}
+
+/*Header which include logo and nagivation bar*/
+
+.navigation
+{
+  width:90%;
+  text-align:center;
+  color:#000000;
+  border-bottom:1px solid #404040;
+  margin-left:auto;
+  margin-right:auto;
+}
+.navigation img
+{
+  max-width:100%;
+  height:auto;
+  margin:1.5% 0;
+}
+.navigation a:link, a:visited, a:hover {color:#353535; text-decoration:none;}
+.menubox {width:95%; margin:0 auto;}
+.menubox a
+{
+  color:#000000;
+  text-align:center;
+  padding:1em;
+  margin:0.2% 0 1% 0;
+  font-size:1.9em;
+  display:inline-block;
+  border-radius:5px;
+}
+.menu a {font-size:2.3em}
+.menubox a:hover {color:#898989;}
+.menubox .menubutton {display:none;}
+
+/*index.html css*/
+/*welcome text*/
+
+.welcome
+{
+  border-bottom:1px solid #c4c4c4;
+  width:70%;
+  margin:4% auto 1% auto;
+}
+.welcome h1
+{
+  font-family:georgia, "Times New Roman", times, serif;
+  font-style:italic;
+  font-size:3.5em;
+  text-align:center;
+  margin:3% auto;
+  line-height:1.6em;
+}
+.welcome p 
+{
+  font-size:2em;
+  line-height:1.9em;
+  margin:3% auto;
+  text-align:center;
+}
+.welcome a:link {text-decoration:none;}
+.welcome a:hover 
+{
+  text-decoration:underline;
+  color:#848484;
+}
+.col a:visited {color:#545454;}
+
+/*Room Type*/
+
+.contentWrapper
+{
+  width:80%;
+  margin:3% auto 1% auto;
+  border-bottom:1px solid #c4c4c4;
+  overflow:auto;
+}
+.contentWrapper p {font-size:1.4em; margin-bottom:2%;}
+.col
+{
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom:4%;
+  width:30%;
+  height:auto;
+}
+.col a:link {text-decoration:none; color:#868686;}
+.col a:hover 
+{
+  padding:0.8em;
+  background-color:#cacaca;
+}
+.col a:visited {color:#5a5a5a;}
+.imgcon
+{
+  position:relative;
+  margin:0 auto;
+}
+.imgcon img {max-width:100%; width:100%; height:auto;}
+.col h2 
+{
+  font-size:2.7em;
+  font-style:italic;
+  text-align:center;
+  background-color:#cacaca;
+  padding:0.5em;
+  margin-bottom:0;
+}
+.col p 
+{
+  font-size:2em;
+  padding:1em;
+  text-align:center;
+  line-height:1.5em;
+  margin-top:1em;
+}
+div.transbox
+{
+  position:absolute;
+  bottom:20px;
+  right:20px;
+  width:9em;
+  background-color:#ffffff;
+  border:1px solid #000000;
+  opacity:0.7;
+  filer:alpha(opacity=70);
+}
+div.transbox p
+{
+  font-weight:bolder;
+  font-style:italic;
+  color:#000000;
+  padding:0.5em;
+  margin:0;
+  font-size:2.2em;
+}
+
+/*Review*/
+.review
+{
+  width:70%;
+  margin:3% auto 0 auto;
+}
+.review p {font-size:1.6em;}
+.reviewbox
+{
+  width:40%;
+  float:left;
+  margin-right:20%;
+}
+.reviewbox p
+{
+  font-size:2em;
+  font-style:italic;
+  line-height:1.5em;
+}
+div.reviewbox .callout 
+{
+  text-align:right;
+  font-weight:bolder;
+}
+.review h2 
+{
+  font-size:2.6em;
+  font-style:italic;
+  margin-bottom:1%;
+  font-family:georgia, "Times New Roman", times, serif;
+}
+.lastbox 
+{
+  margin-right:0;
+}
+.review a:link {text-decoration:none; color:#161616;}
+.review a:hover {text-decoration:underline;}
+.review a:visited {color:#545454;}
+
+
+/*facilities.html CSS*/
+#facilities {width:90%; margin:4% auto;}
+#facilities h1
+{
+  font-family:vollkorn;
+  font-style:italic;
+  font-size:3.5em;
+  text-align:center;
+}
+#public {width:70%; margin:5% auto; overflow:auto;}
+#public img
+{
+  float:left; 
+  margin-right:4%;
+  max-width:100%;
+  height:auto;
+  box-shadow:4px 4px 2px #c7c7c7;
+}
+#public h2
+{
+  font-family:vollkorn;
+  font-size:2.1em;
+  font-style:italic;
+  margin:0;
+}
+#public p {font-size:1.8em; line-height:1.6em;}
+#room {width:70%; margin:4% auto; overflow:auto;}
+#room h2
+{
+  font-family:vollkorn;
+  font-size:2.1em;
+  font-style:italic;
+  margin:0;
+}
+#room img
+{
+  float:left; 
+  margin-right:4%;
+  margin-bottom:4%;
+  max-width:100%;
+  height:auto;
+  box-shadow:4px 4px 2px #c7c7c7;
+}
+#room p {font-size:1.8em; line-height:1.6em; margin-bottom:6%;}
+#supplied {width:70%; margin:4% auto;}
+#supplied h2 
+{
+  font-family:vollkorn;
+  font-size:2.1em;
+  font-style:italic;
+  margin:0;
+}
+#supplied p {font-size:1.3em; margin-top:6%;}
+#supplied li {font-size:1.8em; line-height:1.7em;}
+#supplied ul {margin-bottom:4%;}
+div.button {width:10%; margin:4% auto;}
+div.booknow
+{
+  background-color:#272727;
+  border:none;
+  color:#000000;
+  text-align:center;
+  text-decoration:none;
+  margin:2% auto 6% auto;
+  font-size:1.5em;
+  padding:0.05em 1.1em;
+  border-radius:10px;
+  font-weight:bold;
+  box-shadow:4px 4px 2px #f9f9f9;
+}
+div.booknow a:link {color:#ffffff; text-decoration:none;}
+div.booknow a:hover {text-decoration:underline;}
+div.booknow a:visited {color:#ffffff;}
+
+
+/*attraction.html CSS*/
+.attraction
+{
+  width:70%;
+  margin:4% auto;
+}
+.attraction h1
+{
+  font-family:vollkorn;
+  font-style:italic;
+  font-size:3.5em;
+  text-align:center;
+}
+.attraction p 
+{
+  font-size:1.95em;
+  text-align:center;
+  line-height:1.7em;
+}
+.attraction h3
+{
+  font-family:vollkorn;
+  font-style:italic;
+  font-size:2.3em;
+  text-align:center;
+  margin-top:5%;
+}
+.todoWrapper
+{
+  width:80%;
+  margin:3% auto;
+  border:1.5px solid #c1c1c1;
+  padding:1%;
+}
+.todoWrapper p 
+{
+  font-size:1.7em;
+  text-align:center;
+  font-style:italic;
+  margin-top:4%;
+} 
+.thingstodo 
+{
+  overflow:auto;
+  margin:4%;
+  border:1px solid #676767;
+  box-shadow:4px 4px 2px #979797;
+}
+.thingstodo p
+{
+  font-style:normal;
+  text-align:left;
+  font-size:1.8em;
+  margin-left:5%;
+  margin-top:-2%;
+  margin-bottom:4%;
+  line-height:1.7em;
+  padding-right:1.2em;
+}
+.thingstodo h4
+{
+  font-size:2.5em;
+  margin-left:5%;
+  font-family:"Palatino Linotype","Book Antiqua",Palatino,serif;
+  font-style:italic;
+}
+.attractimgcon
+{
+  float:right;
+  margin:5% 4% 3% 4%;
+}
+.attractimgcon img {max-width:100%; box-shadow:4px 4px 2px #c7c7c7; height:auto;}
+.todoWrapper a:link {text-decoration:underline; color:#777777;}
+.todoWrapper a:visited {color:#777777; text-decoration:none;}
+.todoWrapper a:hover {color:#3e3e3e;}
+.thingstodo a:link {text-decoration:none; color:#585858;}
+.thingstodo a:visited {color:#585858; text-decoration:none;}
+.thingstodo a:hover {text-decoration:underline;}
+
+
+/*reservation.html CSS*/
+.reserve {width:85%; margin:3% auto;}
+.info
+{
+  margin:2% 0;
+  width:25%;
+  font-family:georgia, "Times New Roman", times, serif;
+  color:#282828;
+  font-size:1.6em;
+  line-height:1.5em;
+  padding:2%;
+}
+.info h1
+{
+  padding:1%;
+  font-size:2.4em;
+  margin-bottom:8%;
+  font-style:italic;
+  font-family:vollkorn;
+}
+.info .text 
+{
+  font-weight:bold;
+  margin-bottom:-3%;
+  margin-top:13%;
+  font-size:1em;
+}
+.booking
+{
+  float:right;
+  width:47%;
+  font-family:georgia, "Times New Roman", times, serif;
+  color:#282828;
+  font-size:1.6em;
+  line-height:1.5em;
+  padding:2%;
+  margin:0 5% 2% 4%;
+}
+.booking h1 
+{
+  font-size:2.4em;
+  margin-bottom:8%;
+  font-style:italic;
+  font-family:vollkorn;
+}
+fieldset
+{
+  background:#d0d0d0;
+  border-radius:15px;
+  margin:5% 0;
+  padding:4% 4% 5% 6%;
+}
+label
+{
+  font-size:1em;
+  line-height:1.6em;
+  padding-right:0;
+  padding-left:3%;
+}
+.firstlabel{padding-left:0;}
+input 
+{
+  margin-left:5%; 
+  margin-top:2%;
+  border-radius:4px;
+  font-family:verdana, arial, helvetica, sans-serif;
+  padding:0.3em;
+}
+.firstinput{margin-left:0;}
+label a:link {text-decoration:none; color:#666666;}
+label a:hover {text-decoration:underline;}
+.booking .button 
+{
+  margin-top:7%;
+  margin-bottom:8%;
+  font-size:1em;
+  background-color:#d0d0d0;
+  font-family:georgia, "Times New Roman", times, serif;
+  padding:0.4em;
+  border-radius:8px;
+}
+
+
+/*contact.html CSS*/
+#contact
+{
+  margin:2% auto;
+  width:80%;
+  padding:1% 2%;
+  overflow:auto;
+  font-family:"Times New Roman", times, serif;
+}
+#contact h1 
+{
+  font-size:3.5em;
+  font-family:vollkorn;
+  font-style:italic;
+}
+#mapContainer
+{
+  width:40%;
+  padding:1.5em;
+  background-color:#f5f5f5;
+  border-radius:8px;
+  margin-right:5%;
+  float:right;
+}
+#moreInfo
+{
+  width:45%;
+  padding:1.6em;
+  background-color:#f5f5f5;
+  border-radius:8px;
+  float:left;
+}
+#moreInfo p
+{
+  font-size:1.7em;
+  line-height:1.6em;
+}
+#moreInfo h3 {font-size:1.6em;}
+#moreInfo label {font-size:1.6em; margin-right:4%; padding:0;}
+#moreInfo input 
+{
+  font-size:1.3em; 
+  margin:2% 5% 5% 0; 
+  padding:0.2em;
+  font-family:"Times New Roman",Times,serif;
+}
+#moreInfo #submitBut {font-size:1.2em; margin:0 auto;}
+#moreInfo fieldset {border-radius:10px; border:none;}
+#space {margin-top:8%;}
+#mapContainer h2 {font-size:2.5em;}
+#moreInfo h2 {font-size:2.5em;}
+#contact a:link {color:#404040; text-decoration:none; font-style:italic;}
+#contact a:hover {text-decoration:underline;}
+#contact a:visited {color:#404040;}
+#facebook {width:100%; margin:10% auto;}
+#mapContainer p {font-size:1.8em; line-height:1.6em;}
+#headspace {margin-top:8%;}
+
+
+/*terms.html CSS*/
+.terms
+{
+  margin:5% auto;
+  width:70%;
+}
+.terms h1 
+{
+  font-family:"Palatino Linotype","Book Antiqua",Palatino,serif;
+  font-size:2.7em;
+}
+.terms p {font-size:1.9em; line-height:1.6em; margin-top:-1%;}
+div.terms .callout 
+{
+  margin-top:6%;
+  font-weight:bold;
+  font-style:italic;
+  font-size:2em;
+}
+
+/*sitemap.html*/
+#site
+{
+  margin:10% auto;
+  width:80%;
+}
+#site h1
+{
+  font-family:"Palatino Linotype","Book Antiqua",Palatino,serif;
+  font-size:2.7em;
+}
+#site li {font-size:2em; line-height:1.6em;}
+#site a {text-decoration:none; color:#353535;}
+#site a:hover {text-decoration:underline;}
+#site a:visited {color:#353535;}
+
+
+.hide-desktop {display:none;}
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+/*width 768px to 1024px*/
+@media screen and (min-width:768px) and (max-width:1024px) {
+  
+  /*index.html*/
+  .navigation {width:98%;}
+  .hide {display:none;}
+ 
+  /*welcome message*/
+  .welcome h1
+  {
+    font-size:3.1em;
+    margin-bottom:6%;
+    line-height:1.8em;
+  }
+  .welcome p
+  {
+    line-height:2em;
+    margin-bottom:5%;
+    font-size:2em;
+  }
+  .welcome {margin-bottom:5%;}
+  
+  /*Room Type*/
+  .contentWrapper {margin:5% auto;}
+  .contentWrapper p {font-size:1.3em; margin-bottom:3%; margin-top:5%;}
+  div.col
+  {
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:10%;
+    width:60%;
+    height:auto;
+  }
+  div.col h2 {padding:0.8em; font-size:2.5em;}
+  div.imgcon img {width:100%;}
+  div.col p {font-size:1.9em;}
+  div.transbox p {font-weight:bolder;}
+  div.contentWrapper a:link{text-decoration:none;}
+  
+  /*Review*/
+  div.review p 
+  {
+    font-size:2em;
+    line-height:1.8em;
+  }
+  div.review h2 
+  {
+    font-size:2.4em;
+    margin-bottom:4%;
+  }
+  div.reviewbox
+  {
+    width:auto;
+    margin-bottom:8%;
+    float:none;
+    margin-right:0;
+  }
+  div.review {margin-bottom:8%;}
+  
+  /*footer*/
+  div.footer p {font-size:1em;}
+  div.logocon {margin:1.5%;}
+  
+  /*banner*/
+  div.banner p {font-size:1em;}
+  
+  /*navigation bar*/
+  nav {margin-bottom:2%;}
+  nav .list {font-size:2.4em;}
+    
+  
+  /*facilities.html*/
+  #facilities {width:90%; margin:6% auto;}
+  #public {width:90%;}
+  #room {width:90%;}
+  #supplied {width:90%;}
+  div.button {width:15%; margin:5% auto;}
+  
+  
+  /*attraction.html CSS*/
+  div.attractimgcon {margin:6%;}
+  div.todoWrapper {padding:3%; width:95%; margin:0 auto 8% auto;}
+  div.todoWrapper p {margin-top:5%; font-size:1.6em;}
+  div.thingstodo p {margin-top:-2%; font-size:1.8em;}
+  div.thingstodo {padding:2%;}
+
+  
+  /*reservation.html CSS*/
+  div.booking h1 {line-height:1.4em;}
+  div.booking {margin:-1% 0 2% 3%; width:50%;}
+
+
+  /*contact.html CSS*/
+  #mapContainer {margin:0 1% 0 0;}
+  #contact {width:90%; margin:3% auto 7% auto;}
+  #facebook {width:100%; margin:10% auto;}
+  #twitter {margin:1.5% 1.5%;}
+  #moreInfo textArea {width:95%;}
+  
+  
+  
+  /*terms.html CSS*/
+  div.terms {margin:12% auto;}
+  div.terms p {margin-top:-2%;}
+  div.terms .callout {margin-top:6%;} 
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*width 320px to 480px*/
+
+@media screen and (min-width: 320px) and (max-width:480px) {
+  
+  .menubox 
+  {
+    width:40%; 
+    margin:4% auto 8% auto; 
+    font-size:1.35em; 
+    text-align:center;
+  }
+  .menubox a {padding:1%; margin:2%;}
+  .menu a {font-size:1.6em;}
+  .menubox .menubutton {display:block;}
+  .menubox .menu 
+  {
+    height:0; 
+    opacity:0; 
+    overflow:hidden;
+    width:100%;
+  }
+  .menu a {display:block; margin:6% 0;}
+  #menu:target .menu {opacity:1; height:auto;}
+  #menu:target .menubutton {display:none;}
+  
+
+  /*index.html*/
+  /*welcome message*/
+  .welcome h1 
+  {
+    font-size:2.2em;
+    line-height:1.7em;
+    margin-bottom:8%;
+  }
+  .welcome p 
+  {
+    line-height:2em;
+    margin-bottom:9%;
+    font-size:1.9em;
+    text-align:center;
+  }
+  .welcome {margin-top:7%;}
+  
+  /*Room Type*/
+  .contentWrapper 
+  {
+    margin-top:8%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .contentWrapper p 
+  {
+    font-size:1.4em;
+    margin-bottom:4%;
+    margin-top:5%;
+    line-height:1.3em;
+  }
+  .mobilecollapse
+  {
+    float:none;
+    margin-right:0;
+    width:auto;
+  }
+  div.col { margin-bottom:15%;}
+  div.firstcol {margin-left:0;}
+  div.imgcon img {width:100%; margin-bottom:3%;}
+  div.col h2 {font-size:2.1em;}
+  div.col p {font-size:1.9em;}
+  div.transbox {width:8em;}
+  div.transbox p
+  {
+    font-weight:bolder;
+    font-size:2em;
+  }
+  
+  /*Review*/
+  div.review p 
+  {
+    font-size:1.5em;
+    line-height:1.5em;
+  }
+  div.review h2 
+  {
+    font-size:2.2em;
+    margin-bottom:3%;
+  }
+  div.reviewbox
+  {
+    width:auto;
+    margin-bottom:8%;
+    float:none;
+    margin-right:0;
+    font-size:1.1em;
+  }
+  div.review {margin-bottom:8%;}
+  
+  /*footer*/
+  div.footer p 
+  {
+    font-size:0.9em;
+    line-height:1.7em;
+  }
+  div.logocon {margin:2% 3% 2% 3%;}
+  
+  /*banner*/
+  div.banner p {font-size:0.9em;}
+  
+  /*navigation bar*/
+  nav {margin-bottom:5%;}
+  nav .list {font-size:2.2em;}
+  
+  /*end of index.html*/
+  
+  /*facilities.html*/
+  #facilities {width:90%; margin-bottom:15%; margin-top:8%;}
+  #public {width:75%;}
+  #public img {float:none; margin:5% auto 8% auto;}
+  #public h2, p {line-height:1.9em;}
+  #public p {margin-top:1%;}
+  #room {width:75%;}
+  #room img {float:none; margin:8% auto 4% auto;}
+  #room h2, p {line-height:1.9em;}
+  #room p {margin-top:1%; margin-bottom:9%;}
+  #supplied {width:75%;}
+  #supplied h2 {margin-top:10%;}
+  #supplied ul {padding-left:1.2em; margin-bottom:15%;}
+  div.button {width:40%; margin:15% auto;}
+  
+  /*attraction.html*/
+  div.attraction {width:90%; margin:3% 6%;}
+  div.attraction h3 {margin-top:10%;}
+  div.attraction h1 {margin-top:10%;}
+  div.todoWrapper {padding:3%; width:90%; margin:0 auto 16% auto;}
+  div.todoWrapper p {margin-top:8%;}
+  div.thingstodo 
+  {
+    padding:3%;
+    box-shadow:none;
+    margin-bottom:8%;
+  }
+  div.thingstodo p {margin-top:-3%; font-size:1.8em;}
+  div.thingstodo h4 {margin-top:8%; font-size:2.5em;}
+  div.attractimgcon {float:none;margin:6%;}
+  
+  /*end of attraction.html CSS*/
+  
+  .reserve {width:96%; margin:5% 0 5% auto;}
+  .info
+  {
+    margin:4% auto;
+    width:90%;
+    border-top:1px solid #a0a0a0;
+  }
+  .booking h1 {line-height:1.6em;}
+  .booking
+  {
+    float:none;
+    width:95%;
+    margin:8% auto;
+  } 
+  .info {font-size:1.7em;}
+  .changesize {font-size:0.8em;}
+  .popout {font-size:0.8em; font-style:italic;}
+  
+  /*end of reservation.html CSS*/
+  
+  /*contact.html CSS*/
+  #contact {width:90%; margin:5% auto;}
+  #mapContainer {float:none; margin:5% auto 7% auto; width:91%; border:1px solid;}
+  #moreInfo {width:90%; margin:2% auto 4% auto; border:1px solid; float:none;}
+  #moreInfo fieldset {margin:3% 0; border-radius:0;}
+  #moreInfo h3 {font-size:1.5em;}
+  #moreInfo #submitBut {width:100%; margin:4% auto;}
+  #facebook {width:100%; margin:10% auto;}
+  #twitter {margin:3% 2% 0 3%;}
+  #moreInfo textArea {width:95%;}
+  
+  
+  /*terms.html CSS*/
+  div.terms {margin:10% auto;}
+  div.terms p {margin-top:-3%;}
+  div.terms .callout {margin-top:13%;}
+  
+
+  .hide-mobile {display:none;}
+  .show-mobile {display:initial;}
+}
